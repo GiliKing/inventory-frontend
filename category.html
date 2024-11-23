@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/category.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="content">
+                <div class="box-one">
+                    <img src="./asset/logo.png" alt="">
+                </div>
+                <div class="input">
+                    <img src="./asset/search-normal.png" alt="">
+                    <input type="text" placeholder="Search anything here...">
+               </div>
+                <div class="box-two">
+                    <span class="circle">CO</span>
+                    <span>John Kennedy</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="first-section mt-5">
+        <div class="container">
+            <div class="content">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="one">More Categories</p>
+                        </div>
+                        <dic class="col-md-8">
+                            <p class="two">Categories > <span id="change"></span></p>
+                        </dic>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-md-4 great">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row rollow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="good-modal">
+                    <div class="image">
+                        <img src="" alt="" id="buyImage">
+                    </div>
+                    <p class="one" id="buyName"></p>
+                    <p class="two" id="buyPrice"></p>
+
+                    <div class="counter">
+                        <button id="decrement">-</button>
+                        <div class="number" id="counterValue">0</div>
+                        <button id="increment">+</button>
+                    </div>
+                    <div class="button text-center">
+                        <button class="btn" id="buyButton">add</button>
+                    </div>
+
+                    <input type="hidden" id="itemId" value="">
+
+                </div>
+            </div>       
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="content">
+                <div class="one">
+                    <p>Order Food</p>
+                    <span>Make ordering your food easier with our mobile app. You can get it on the google play store.</span>
+                    <img src="./asset/google.png" alt="">
+                </div>
+                <div class="two">
+                    <img src="/asset/pmk.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="./js/jquery.js"></script> 
+    <script src="./js/bootstrap.min.js"></script> 
+    <script type="module" src="./js/category.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logs</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--navigtion  -->
+    <nav>
+        <div class="container-fluid">
+            <div class="content">
+                <div class="first">
+                    <p>Logs</p>
+                </div>
+                <div class="second">
+                    <div class="link">
+                        <a href="#" class="btn">Logout</a>
+                    </div>
+                    <div class="img-first">
+                        <img src="./asset/notification.png" alt="notification">
+                    </div>
+                    <div class="img-second">
+                        <img src="./asset/avatar.png" alt="avatar">
+                    </div>
+                    <div class="img-third">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- side bar -->
+     <div class="sidebar">
+        <div class="content">
+            <div class="box-one">
+                <img src="./asset/logo.png" alt="">
+                <div class="one">
+                    <span class="s-one">Administrator</span>
+                    <span class="s-two">Super Admin</span>
+                </div>
+            </div>
+            <div class="box-two">
+                <p>
+                    <a href="/admin/inventory.html">
+                        <img src="./asset/shop.png" alt="">
+                        <span>Inventory</span>
+                    </a>
+                </p>
+                <p class="invent">
+                    <a class="invent" href="/admin/log.html">
+                        <img src="./asset/clipboard-text.png" alt="">
+                        <span>Logs</span>
+                    </a>
+                </p>
+                <p>
+                    <a href="/admin/category.html">
+                        <img src="./asset/moneys.png" alt="">
+                        <span>Categories</span>
+                    </a>
+                </p>
+                <p>
+                    <a href="">
+                        <img src="./asset/setting-2.png" alt="">
+                        <span>Settings</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+     </div>
+
+    <!-- table -->
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="first">
+                <div class="box-one">
+                    <input type="text" placeholder="Search..." class="search">
+                    <select id="menect">
+                        <option value="" class="actionType">view logs by action type</option>
+                        <option value="all" class="actionType">All</option>
+                        <option value="added" class="actionType">Added</option>
+                        <option value="updated" class="actionType">Updated</option>
+                        <option value="sold" class="actionType">Sold</option>
+                    </select>
+                    <button class="btn">Search</button>
+                </div>
+                <div class="box-two">
+                    <!-- <button class="btn" id="open-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">Create Category</button> -->
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">S/N</th>
+                    <th scope="col">Action</th> <!-- action type-->
+                    <th scope="col">Performed By</th> <!-- purchaser name-->
+                    <th scope="col">Stock date</th> <!-- timestamp -->
+                    <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr>
+                    </tr>   
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <script src="./js/jquery.js"></script> 
+    <script src="./js/bootstrap.min.js"></script> 
+    <script src="./js/log.js" type="module"></script>
+</body>
+</html>

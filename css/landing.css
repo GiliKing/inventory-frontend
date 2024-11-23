@@ -1,0 +1,176 @@
+nav div.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav div.content div.box-two span.circle {
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #2E3A6E;
+    color: white;
+}
+
+div.first-section div.content {
+    height: 367px;
+    top: 146px;
+    left: 120px;
+    border-radius: 50px;
+    background-color: #2E3A6E;
+}
+
+div.first-section div.content p {
+    width: 50%;
+    margin: 0px auto;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+div.first-section div.content div.input {
+    background-color: white;
+    width: 50%;
+    margin: 0px auto;
+    padding-left: 20px;
+    width: Fixed (551px)px;
+    height: 56px;
+    border-radius: 30px;
+}
+
+div.first-section div.content div.input input {
+    width: 90%;
+    border: none;
+    height: 54px;
+    outline: none;
+}
+
+div.first-section div.content div.input input::placeholder {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #576378;
+}
+div.second-section div.content p.pp {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.89px;
+    letter-spacing: -0.01em;
+    color: #0A1853;
+    margin-top: 50px;
+}
+
+div.second-section div.content div.image {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+div.second-section div.content div.image img {
+    width: 100%;
+    border-radius: 20px;
+    height: 200px;
+}
+
+div.second-section div.content p.p-one {
+    margin-bottom: 0px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24.2px;
+    letter-spacing: -0.01em;
+    color:#0A1853;
+    margin-bottom: 5px;
+}
+
+div.second-section div.content div.box-one div.one p.p-two {
+    margin-bottom: 0px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24.2px;
+    letter-spacing: -0.01em;
+    color: #576378;
+    margin-bottom: 5px;
+}
+
+div.third-section div.content p {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;
+    letter-spacing: -0.01em;
+    color: #0A1853;
+}
+
+div.third-section div.content div.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.third-section div.content div.link a {
+    padding: 12px 20px 12px 20px;
+    border-radius: 30px;
+    border: 1px solid #E6E7E9;
+    text-decoration: none;
+    color: #0A1853;
+    margin: 10px;
+}
+
+footer {
+    margin-top: 100px;
+    height: 230px;
+    background-image: url('../asset/footer.png');
+    background-repeat: no-repeat;
+}
+
+footer div.content {
+    display: flex;
+}
+
+footer div.content div.one {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+footer div.content div.one p {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.57px;
+    color: #0A1853;
+    margin-top: 0px;
+}
+
+footer div.content div.one span {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0A1853;
+    width: 30%;
+}
+
+footer div.content div.one img {
+    width: 100px;
+}
+
+footer div.content div.two {
+    position: relative;
+    right: 0;
+    bottom: 70px;
+    height: 300px;
+    overflow: hidden;
+}
+
+footer div.content div.two img {
+    height: 400px;
+}
